@@ -1,0 +1,26 @@
+.champions{
+  width: 100%;
+  height: 20%;
+}
+.champions-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.champion {
+  display: flex;
+  margin: 0.2em;
+}
+
+.champion img {
+  width: 60px;
+  height: 60px;
+}
+
+.champion:hover {
+  background-color: cyan;
+  cursor: pointer;
+}
+#p5 {
+  width: 100%;
+}
